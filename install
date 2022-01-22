@@ -21,7 +21,7 @@ if (question=="Linux"):
 	if (which== 'Arch'):
 	    os.system('sudo pacman -Syy')
 	    os.system('sudo pacman -S python3')
-	    os.system('sudo mv calc /usr/bin')
+	    os.system('sudo mv calculator /usr/bin')
 	    os.system('sudo chmod +x $PREFIX/bin/calculator')
 if (question=="Termux"):
 	os.system('apt update')

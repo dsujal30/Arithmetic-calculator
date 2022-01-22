@@ -2,5 +2,5 @@
 
 pkg i python python3 
 
-mv run /data/data/com.termux/files/usr/bin
+mv run $PREFIX/bin
 

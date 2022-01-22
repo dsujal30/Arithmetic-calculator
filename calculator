@@ -1,9 +1,15 @@
 #!/bin/python3
 #code starts here
 
-
+# Asking what calculation should be done!
 print("What kind of calculation you want to do?\n (a)add\n (s)sub\n (m)multiply\n (d)div\n")
+
+# Assigning variable to take input!
+
 value= input("select by a,s,m or d\n")
+
+# Start of if/elif ladder!
+
 if (value=="a"):
     no_1=int(input("Enter 1st no.\n"))
     no_2=int(input("Enter 2nd no.\n"))
@@ -31,3 +37,4 @@ elif (value=="d"):
 else:
     print("wrong option\n")
     
+#Ending

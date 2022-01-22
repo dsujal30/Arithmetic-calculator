@@ -35,3 +35,4 @@ if (question=="Termux"):
 	
 else:
     print("Wrong Option")
+    exit()

@@ -1,5 +1,6 @@
 # Arithmetic-calculator
-A Arithmetic Calculator
+A Arithmetic Calculator. 
+Note:- this calculator can do only basic calculations such as additional, subtraction, multiplication and division.
 
 # Installation
 For installation run ```install``` file with python.

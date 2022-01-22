@@ -26,7 +26,7 @@ if (question=="Linux"):
 if (question=="Termux"):
 	os.system('apt update')
 	os.system('apt install python3 -y')
-	os.system('mv calc $PREFIX/bin')
+	os.system('mv calculator $PREFIX/bin')
 	os.system('chmod +x $PREFIX/bin/calculator')
 	
 else:

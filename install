@@ -11,23 +11,23 @@ if (question=="Linux"):
 	which= input('$ Linux ')
 	if (which== 'Void'):
 	    os.system('sudo xbps-install python3 -y')
-	    os.system('sudo mv calc /usr/bin')
-	    os.system('sudo chmod +x $PREFIX/bin/calc')
+	    os.system('sudo mv calculator /usr/bin')
+	    os.system('sudo chmod +x $PREFIX/bin/calculator')
 	if (which== 'Ubuntu'):
 	    os.system('sudo apt update')
 	    os.system('sudo apt install python3 -y')
-	    os.system('sudo mv calc /usr/bin')
-	    os.system('sudo chmod +x $PREFIX/bin/calc')
+	    os.system('sudo mv calculator /usr/bin')
+	    os.system('sudo chmod +x $PREFIX/bin/calculator')
 	if (which== 'Arch'):
 	    os.system('sudo pacman -Syy')
 	    os.system('sudo pacman -S python3')
 	    os.system('sudo mv calc /usr/bin')
-	    os.system('sudo chmod +x $PREFIX/bin/calc')
+	    os.system('sudo chmod +x $PREFIX/bin/calculator')
 if (question=="Termux"):
 	os.system('apt update')
 	os.system('apt install python3 -y')
 	os.system('mv calc $PREFIX/bin')
-	os.system('chmod +x $PREFIX/bin/calc')
+	os.system('chmod +x $PREFIX/bin/calculator')
 	
 else:
     print("Wrong Option")

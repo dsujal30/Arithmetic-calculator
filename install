@@ -23,10 +23,6 @@ if (question=="Linux"):
 	    os.system('sudo pacman -S python3')
 	    os.system('sudo mv run /usr/bin')
 	    os.system('sudo chmod +x $PREFIX/bin/run')
-	else:
-	    print("Wrong Distro")
-	    exit()
-
 if (question=="Termux"):
 	os.system('apt update')
 	os.system('apt install python3 -y')

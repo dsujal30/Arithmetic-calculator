@@ -7,9 +7,21 @@ print("Termux Or Linux?")
 question= input('$ ')
 
 if (question=="Linux"):
-	os.system('sudo apt update')
-	os.system('sudo apt install python3 -y')
-	os.system('mv run /usr/bin')
+	print("Which Linux")
+	which= input('$ ')
+	if (which== 'Void'):
+	    os.system('sudo xbps-install python3 -y')
+	    os.system('sudo mv run /usr/bin')
+	if (which== 'Ubuntu'):
+	    os.system('sudo apt update')
+	    os.system('sudo apt install python3 -y')
+	    os.system('sudo mv run /usr/bin')
+	if (which== 'Arch'):
+	    os.system('sudo pacman -Syy')
+	    os.system('sudo pacman -S python3')
+	    os.system('sudo mv run /usr/bin')
+	else:
+	    print("Wrong Distro")
 if (question=="Termux"):
 	os.system('apt update')
 	os.system('apt install python3 -y')

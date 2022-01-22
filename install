@@ -1,7 +1,19 @@
-#!/bin/bash
+#!/bin/python3
+import os
 
-apt update
-apt install python3 -y
 
-mv run $PREFIX/bin
+print("Termux Or Linux?")
 
+question= input('$ ')
+
+if (question=="Linux"):
+	os.system('sudo apt update')
+	os.system('sudo apt install python3 -y')
+	os.system('mv run /usr/bin')
+if (question=="Termux"):
+	os.system('apt update')
+	os.system('apt install python3 -y')
+	os.system('mv run $PREFIX/bin')
+	
+else:
+    print("Wrong Option")

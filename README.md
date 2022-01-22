@@ -1,11 +1,11 @@
 # Arithmetic-calculator
 A Arithmetic Calculator
 
-#Installation
+# Installation
 For installation run ```install``` file with python.
 
-#Execution
+# Execution
 To use the calculator just type ```calc``` in the cli, after installation.
 
-#Uninstallation
-Run this command ``` rm $(command -v calculator) ```
+# Uninstallation
+Run this command to uninstall ``` rm $(command -v calculator) ```

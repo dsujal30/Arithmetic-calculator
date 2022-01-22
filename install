@@ -1,0 +1,8 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+pkg i python python3 git
+
+git clone https://github.com/dsujal30/Arithmetic-calculator.git
+
+mv run /data/data/com.termux/files/usr/bin
+

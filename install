@@ -8,7 +8,7 @@ question= input('$ ')
 
 if (question=="Linux"):
 	print("Which Linux")
-	which= input('$ ')
+	which= input('$ Linux ')
 	if (which== 'Void'):
 	    os.system('sudo xbps-install python3 -y')
 	    os.system('sudo mv run /usr/bin')
@@ -22,6 +22,8 @@ if (question=="Linux"):
 	    os.system('sudo mv run /usr/bin')
 	else:
 	    print("Wrong Distro")
+	    exit()
+
 if (question=="Termux"):
 	os.system('apt update')
 	os.system('apt install python3 -y')

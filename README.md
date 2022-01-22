@@ -3,7 +3,7 @@ A Arithmetic Calculator.
 Note:- this calculator can do only basic calculations such as additional, subtraction, multiplication and division.
 
 # Installation
-For installation run ```chmod +x ``` \n then ```./install``` or ```python3 install``` file with python.
+For installation run ```chmod +x ```  then ```./install``` or ```python3 install``` file with python.
 
 # Execution
 To use the calculator just type ```calc``` in the cli, after installation.

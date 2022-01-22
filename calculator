@@ -19,7 +19,7 @@ elif (value=="s"):
 elif (value=="m"):
     no_1=int(input("Enter 1st no.\n"))
     no_2=int(input("Enter 2nd no.\n"))
-    multyply = no_1 * no_2
+    multiply = no_1 * no_2
     print(multiply)
 
 elif (value=="d"):

@@ -31,8 +31,11 @@ elif (value=="m"):
 elif (value=="d"):
     no_1=int(input("Enter 1st no.(dividend)\n"))
     no_2=int(input("Enter 2nd no.(divisor)\n"))
-    div = no_1 / no_2
-    print(div)
+    if no_1 == 0 or no_2 == 0:
+        print("cannot divide with 0\n")
+    else:
+        div = no_1 / no_2
+        print(div)
 
 else:
     print("wrong option\n")
